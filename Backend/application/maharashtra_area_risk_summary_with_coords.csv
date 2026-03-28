@@ -1,0 +1,335 @@
+state,city,area,total_crimes_upto_2025,risk_level,latitude,longitude
+Maharashtra,Mumbai,Versova,2795,Medium,19.1315,72.8193
+Maharashtra,Mumbai,Chembur,6072,High,19.0522,72.8995
+Maharashtra,Mumbai,Dharavi,5510,High,19.0407,72.8537
+Maharashtra,Mumbai,Worli,2113,Medium,19.0176,72.8162
+Maharashtra,Mumbai,Ghatkopar,4131,Medium,19.0866,72.9081
+Maharashtra,Mumbai,Colaba,1800,Low,18.9067,72.8147
+Maharashtra,Mumbai,Goregaon,4417,Medium,19.1663,72.8526
+Maharashtra,Mumbai,Bandra,2406,Medium,19.0596,72.8295
+Maharashtra,Mumbai,Borivali,4480,Medium,19.2307,72.8567
+Maharashtra,Mumbai,Andheri,2612,Medium,19.1136,72.8697
+Maharashtra,Mumbai,Malad,1877,Medium,19.1875,72.8484
+Maharashtra,Mumbai,Kandivali,4166,High,19.2051,72.8449
+Maharashtra,Mumbai,Dadar,2908,Medium,19.0178,72.8478
+Maharashtra,Mumbai,Kurla,4493,High,19.0726,72.8801
+Maharashtra,Mumbai,Mulund,2075,Medium,19.1726,72.9563
+Maharashtra,Mumbai,Powai,1193,Low,19.1197,72.9051
+Maharashtra,Mumbai,Vikhroli,4426,Medium,19.1062,72.9264
+Maharashtra,Mumbai,Sion,4097,Medium,19.0396,72.8608
+Maharashtra,Mumbai,Matunga,2268,Medium,19.0252,72.859
+Maharashtra,Mumbai,Wadala,1893,Medium,19.0183,72.8597
+Maharashtra,Mumbai,Sewri,7029,High,18.9965,72.8556
+Maharashtra,Mumbai,Govandi,2919,High,19.0628,72.9182
+Maharashtra,Mumbai,Mankhurd,5864,High,19.0517,72.9301
+Maharashtra,Mumbai,Trombay,2106,Medium,19.0335,72.9398
+Maharashtra,Mumbai,Lower Parel,1939,Medium,18.9972,72.824
+Maharashtra,Mumbai,Juhu,1446,Low,19.1075,72.8263
+Maharashtra,Mumbai,Mahim,3559,Medium,19.0366,72.8405
+Maharashtra,Mumbai,Thane Junction,2970,Medium,19.1815,72.9637
+Maharashtra,Mumbai,Mira Road,3299,Medium,19.2813,72.8729
+Maharashtra,Mumbai,Santacruz,929,Low,19.0822,72.8413
+Maharashtra,Mumbai,Khar,1949,Low,19.0728,72.8355
+Maharashtra,Mumbai,Jogeshwari,2849,Medium,19.139,72.8468
+Maharashtra,Mumbai,Oshiwara,3747,Medium,19.1494,72.8307
+Maharashtra,Mumbai,Vile Parle,1075,Low,19.0992,72.8479
+Maharashtra,Mumbai,Ghatkoper West,3237,Medium,19.0866,72.9055
+Maharashtra,Mumbai,Grant Road,2727,Medium,18.9645,72.8151
+Maharashtra,Mumbai,Byculla,6130,High,18.9793,72.8319
+Maharashtra,Mumbai,Mazgaon,5472,High,18.9668,72.8408
+Maharashtra,Mumbai,Parel,2568,Medium,19.0019,72.8415
+Maharashtra,Mumbai,Chinchpokli,2613,Medium,18.984,72.837
+Maharashtra,Mumbai,Reay Road,2041,Medium,18.9727,72.8449
+Maharashtra,Mumbai,Comba,2913,Medium,18.9023,72.8133
+Maharashtra,Mumbai,Fort,1225,Low,18.9322,72.8351
+Maharashtra,Mumbai,Nariman Point,969,Low,18.9256,72.8242
+Maharashtra,Mumbai,Churchgate,1864,Low,18.9349,72.8267
+Maharashtra,Pune,Chinchwad,2339,Medium,18.6279,73.7997
+Maharashtra,Pune,Deccan,2669,Medium,18.5236,73.8468
+Maharashtra,Pune,Wanowrie,2680,Medium,18.4818,73.8988
+Maharashtra,Pune,Pimpri,2087,Medium,18.6279,73.7997
+Maharashtra,Pune,Lohegaon,532,Low,18.582,73.9112
+Maharashtra,Pune,Kothrud,2176,Medium,18.5074,73.8077
+Maharashtra,Pune,Hadapsar,2341,Medium,18.5018,73.9258
+Maharashtra,Pune,Aundh,1326,Low,18.559,73.807
+Maharashtra,Pune,Baner,829,Low,18.559,73.7868
+Maharashtra,Pune,Wakad,1097,Low,18.5969,73.7614
+Maharashtra,Pune,Hinjewadi,1118,Low,18.5914,73.7387
+Maharashtra,Pune,Katraj,1816,Medium,18.453,73.8625
+Maharashtra,Pune,Kondhwa,2309,Medium,18.4587,73.8971
+Maharashtra,Pune,Kharadi,520,Low,18.5567,73.9403
+Maharashtra,Pune,Shivajinagar,1304,Medium,18.5307,73.8474
+Maharashtra,Pune,Camp,1943,Medium,18.5163,73.8763
+Maharashtra,Pune,Viman Nagar,1304,Low,18.5679,73.9143
+Maharashtra,Pune,Yerawada,2032,Medium,18.5531,73.8864
+Maharashtra,Pune,Dhanori,2340,Medium,18.5897,73.9009
+Maharashtra,Pune,Undri,2731,Medium,18.451,73.9039
+Maharashtra,Pune,Bibwewadi,1505,Medium,18.4714,73.8608
+Maharashtra,Pune,Bhosari,4127,High,18.639,73.8482
+Maharashtra,Pune,Vishrantwadi,1243,Low,18.5825,73.8907
+Maharashtra,Pune,Pimple Saudagar,547,Low,18.5999,73.7803
+Maharashtra,Pune,Dighi,2439,Medium,18.6129,73.8655
+Maharashtra,Pune,Swargate,1722,Medium,18.4967,73.8614
+Maharashtra,Pune,Lashkar,1982,Medium,18.5196,73.8753
+Maharashtra,Pune,Tilak Road,1474,Medium,18.5028,73.8641
+Maharashtra,Pune,Sadashiv Peth,1364,Medium,18.513,73.8504
+Maharashtra,Pune,Kasba Peth,946,Medium,18.517,73.8597
+Maharashtra,Pune,Nanded,2574,Medium,18.3861,73.9041
+Maharashtra,Pune,Ambegaon,1848,Medium,18.4143,73.8578
+Maharashtra,Pune,Warje,930,Low,18.4836,73.8047
+Maharashtra,Pune,Karve Nagar,698,Low,18.4912,73.823
+Maharashtra,Pune,Erandwane,1346,Low,18.5152,73.8305
+Maharashtra,Nagpur,Nandanvan,2386,High,21.1012,79.0654
+Maharashtra,Nagpur,Butibori,2019,High,21.0057,79.1247
+Maharashtra,Nagpur,Kamptee,3437,High,21.22,79.1959
+Maharashtra,Nagpur,Gandhibagh,2338,High,21.145,79.0806
+Maharashtra,Nagpur,Wardha Road,1179,High,21.0919,79.1108
+Maharashtra,Nagpur,Sitabuldi,1477,Medium,21.1471,79.0793
+Maharashtra,Nagpur,Sadar,719,Medium,21.1376,79.0715
+Maharashtra,Nagpur,Dharampeth,1030,Medium,21.133,79.058
+Maharashtra,Nagpur,Ramdaspeth,1555,Medium,21.1341,79.0665
+Maharashtra,Nagpur,Bajaj Nagar,2179,Medium,21.1566,79.1021
+Maharashtra,Nagpur,MIDC Hingna,1613,Medium,21.0769,78.975
+Maharashtra,Nagpur,Hingna,1828,Medium,21.0827,78.9946
+Maharashtra,Nagpur,Wathoda,1785,Medium,21.0745,79.1202
+Maharashtra,Nagpur,Manish Nagar,1444,Medium,21.1258,79.0503
+Maharashtra,Nagpur,Koradi,2062,High,21.2355,79.0397
+Maharashtra,Nagpur,Pratapnagar,1980,Medium,21.1505,79.0932
+Maharashtra,Nagpur,Dhantoli,951,Medium,21.1411,79.0744
+Maharashtra,Nagpur,Manewada,1614,Medium,21.1073,79.0888
+Maharashtra,Nagpur,Hudkeshwar,1089,Medium,21.0826,79.102
+Maharashtra,Nagpur,Nari,1456,Medium,21.1776,79.1383
+Maharashtra,Nagpur,Beltarodi,1262,Medium,21.1115,79.0227
+Maharashtra,Nagpur,Kalmeshwar,963,Medium,21.2454,78.9656
+Maharashtra,Nagpur,Katol,1304,Medium,21.2741,78.589
+Maharashtra,Nagpur,Umred,2075,Medium,20.8611,79.3267
+Maharashtra,Thane,Mumbra,2499,High,19.1726,73.0226
+Maharashtra,Thane,Kalwa,1206,High,19.187,73.0002
+Maharashtra,Thane,Badlapur,1369,Medium,19.1672,73.2614
+Maharashtra,Thane,Ulhasnagar,1522,High,19.2215,73.1539
+Maharashtra,Thane,Diva,2819,High,19.2045,73.0441
+Maharashtra,Thane,Khopat,935,Medium,19.2,72.97
+Maharashtra,Thane,Kopri,711,Medium,19.1951,72.9868
+Maharashtra,Thane,Manpada,1382,Medium,19.2144,73.0173
+Maharashtra,Thane,Naupada,1464,Medium,19.1944,72.9766
+Maharashtra,Thane,Wagle Estate,978,Medium,19.1818,72.9894
+Maharashtra,Thane,Ambernath,1588,Medium,19.2017,73.1851
+Maharashtra,Thane,Bhiwandi,2901,High,19.2952,73.0628
+Maharashtra,Thane,Titwala,1684,Medium,19.2908,73.2197
+Maharashtra,Thane,Shahapur,1832,Medium,19.4584,73.3267
+Maharashtra,Thane,Murbad,1752,Medium,19.2552,73.3913
+Maharashtra,Thane,Vasind,1470,Medium,19.378,73.2726
+Maharashtra,Thane,Asangaon,1515,Medium,19.5104,73.183
+Maharashtra,Thane,Atgaon,876,Medium,19.5416,73.2237
+Maharashtra,Nashik,Satpur,446,Low,19.9977,73.7434
+Maharashtra,Nashik,Gangapur Road,535,Low,20.0217,73.7695
+Maharashtra,Nashik,Ambad,958,High,19.9943,73.7951
+Maharashtra,Nashik,Malegaon,1009,High,20.5579,74.5251
+Maharashtra,Nashik,Panchavati,266,Low,20.0059,73.697
+Maharashtra,Nashik,Deolali,610,Low,19.9415,73.8342
+Maharashtra,Nashik,Trimbak,371,Low,19.9332,73.5303
+Maharashtra,Nashik,Igatpuri,301,Low,19.6962,73.5637
+Maharashtra,Nashik,Ozar,331,Low,20.1036,73.9481
+Maharashtra,Nashik,Cidco,2216,High,20.0059,73.7697
+Maharashtra,Nashik,Nashik Road,642,Low,19.98,73.8175
+Maharashtra,Nashik,Trimbak Road,407,Low,19.98,73.68
+Maharashtra,Nashik,Sinnar,899,Medium,19.848,74.0025
+Maharashtra,Nashik,Nandgaon,1106,Medium,20.3142,74.6574
+Maharashtra,Nashik,Manmad,647,Medium,20.2558,74.4392
+Maharashtra,Nashik,Yeola,684,Medium,20.0513,74.4881
+Maharashtra,Aurangabad,N-6 Cidco,1591,High,19.9999,73.78
+Maharashtra,Aurangabad,Mukundwadi,1194,Medium,19.8762,75.3433
+Maharashtra,Aurangabad,Cidco,1832,High,20.0059,73.7697
+Maharashtra,Aurangabad,Begumpura,1069,High,19.8862,75.3392
+Maharashtra,Aurangabad,Osmanpura,1154,Medium,19.8974,75.3306
+Maharashtra,Aurangabad,Harsul,1903,High,19.9244,75.3727
+Maharashtra,Aurangabad,Garkheda,1107,Medium,19.8476,75.3685
+Maharashtra,Aurangabad,Waluj,610,Medium,19.835,75.4012
+Maharashtra,Aurangabad,Chikalthana,1109,Medium,19.8686,75.4084
+Maharashtra,Aurangabad,Cantonment,241,Low,19.8762,75.3209
+Maharashtra,Aurangabad,Bajajnagar,365,Low,19.8828,75.3544
+Maharashtra,Aurangabad,Padegaon,956,Medium,19.86,75.35
+Maharashtra,Aurangabad,Satara,433,Medium,17.6805,74.0183
+Maharashtra,Aurangabad,Kranti Chowk,912,Medium,17.6799,75.9064
+Maharashtra,Solapur,Vijapur Road,394,Medium,17.71,75.92
+Maharashtra,Solapur,Hotgi Road,869,High,17.66,75.93
+Maharashtra,Solapur,South Solapur,820,Medium,17.65,75.9
+Maharashtra,Solapur,Kumtha Naka,650,High,17.68,75.91
+Maharashtra,Solapur,Mohol,697,Medium,17.5242,75.7052
+Maharashtra,Solapur,North Solapur,885,Medium,17.71,75.91
+Maharashtra,Solapur,Akkalkot Road,888,Medium,17.7,75.95
+Maharashtra,Solapur,Barshi,333,Medium,18.2353,75.6947
+Maharashtra,Solapur,Pandharpur,665,Medium,17.681,75.3303
+Maharashtra,Solapur,Sangola,674,High,17.4474,75.1927
+Maharashtra,Solapur,Karmala,1251,High,18.0563,75.1924
+Maharashtra,Solapur,Mangalvedha,391,Medium,17.5185,75.464
+Maharashtra,Kolhapur,Tarabai Park,168,Low,16.705,74.2433
+Maharashtra,Kolhapur,Shivaji Park,567,Medium,16.708,74.235
+Maharashtra,Kolhapur,Shiroli,267,Medium,16.76,74.32
+Maharashtra,Kolhapur,Rajarampuri,206,Low,16.7025,74.2349
+Maharashtra,Kolhapur,Udyamnagar,245,Low,16.71,74.25
+Maharashtra,Kolhapur,Ichalkaranji,422,Low,16.6955,74.4602
+Maharashtra,Kolhapur,Jaysingpur,176,Low,16.7989,74.5614
+Maharashtra,Kolhapur,Karvir,252,Low,16.6558,74.182
+Maharashtra,Kolhapur,Kasba Bawada,439,Medium,16.72,74.26
+Maharashtra,Kolhapur,Gandhinglaj,724,Medium,16.2392,74.3517
+Maharashtra,Kolhapur,Kagal,522,Medium,16.5777,74.3202
+Maharashtra,Kolhapur,Hatkanangale,299,Medium,16.8199,74.3814
+Maharashtra,Amravati,Rajkamal Chowk,1000,High,20.9374,77.7796
+Maharashtra,Amravati,Buti Layout,617,Medium,20.93,77.77
+Maharashtra,Amravati,Badnera,1249,High,20.8786,77.7671
+Maharashtra,Amravati,Gulshan Colony,144,Low,20.945,77.785
+Maharashtra,Amravati,Shivnagar,257,Low,20.92,77.76
+Maharashtra,Amravati,Paratwada,306,Medium,21.263,77.658
+Maharashtra,Amravati,Cotton Market,1236,High,20.932,77.77
+Maharashtra,Amravati,Daryapur,437,Medium,20.9219,77.3291
+Maharashtra,Amravati,Achalpur,472,Medium,21.2574,77.5093
+Maharashtra,Amravati,Morshi,752,Medium,21.3207,78.0032
+Maharashtra,Amravati,Warud,360,Medium,21.4713,78.2636
+Maharashtra,Nanded,Vazirabad,410,High,19.18,77.31
+Maharashtra,Nanded,Cidco,1115,High,20.0059,73.7697
+Maharashtra,Nanded,Asarjan,740,High,19.16,77.33
+Maharashtra,Nanded,Shivajinagar,595,Medium,18.5307,73.8474
+Maharashtra,Nanded,Naigaon,139,Low,19.21,77.29
+Maharashtra,Nanded,Degloor,474,High,18.5355,77.5576
+Maharashtra,Nanded,Biloli,346,High,18.761,77.7335
+Maharashtra,Nanded,Hadgaon,243,Medium,18.7882,77.6663
+Maharashtra,Nanded,Kinwat,232,Medium,19.627,78.2085
+Maharashtra,Nanded,Mukhed,590,Medium,17.7238,77.6668
+Maharashtra,Sangli,Vishrambag,137,Low,16.8521,74.5764
+Maharashtra,Sangli,Miraj,193,Low,16.8265,74.6468
+Maharashtra,Sangli,Kupwad,144,Low,16.8665,74.6118
+Maharashtra,Sangli,Sangli City,123,Low,16.8524,74.5815
+Maharashtra,Sangli,Wanlesswadi,295,Low,16.86,74.6
+Maharashtra,Sangli,Islampur,147,Low,17.0452,74.2597
+Maharashtra,Sangli,Vita,158,Low,17.2721,74.5564
+Maharashtra,Sangli,Shirala,169,Low,17.1347,74.3876
+Maharashtra,Sangli,Walwa,262,Low,17.031,74.3855
+Maharashtra,Sangli,Jat,220,Low,17.0434,75.2206
+Maharashtra,Satara,Satara City,231,Low,17.6805,74.0183
+Maharashtra,Satara,Karad,192,Low,17.2885,74.1849
+Maharashtra,Satara,Wai,184,Low,17.9523,73.8994
+Maharashtra,Satara,Panchgani,226,Low,17.9246,73.7999
+Maharashtra,Satara,Mahabaleshwar,274,Low,17.9235,73.6572
+Maharashtra,Satara,Koregaon,224,Low,17.6822,74.163
+Maharashtra,Satara,Khandala,245,Low,18.7588,73.3913
+Maharashtra,Satara,Phaltan,93,Low,17.9882,74.4358
+Maharashtra,Satara,Rahimatpur,50,Low,17.5967,74.187
+Maharashtra,Satara,Man,71,Low,17.55,74.28
+Maharashtra,Raigad,Alibag,167,Low,18.6411,72.8724
+Maharashtra,Raigad,Panvel,100,Low,18.9894,73.1175
+Maharashtra,Raigad,Uran,172,Low,18.8826,72.9368
+Maharashtra,Raigad,Pen,71,Low,18.7377,73.0934
+Maharashtra,Raigad,Khopoli,114,Low,18.7897,73.343
+Maharashtra,Raigad,Roha,208,Low,18.4373,73.1153
+Maharashtra,Raigad,Mangaon,128,Low,18.238,73.2672
+Maharashtra,Raigad,Mahad,123,Low,18.0759,73.4173
+Maharashtra,Raigad,Poladpur,167,Low,17.9763,73.4935
+Maharashtra,Raigad,Shrivardhan,183,Low,18.038,73.041
+Maharashtra,Ratnagiri,Ratnagiri City,83,Low,16.9944,73.3
+Maharashtra,Ratnagiri,Chiplun,163,Low,17.53,73.5152
+Maharashtra,Ratnagiri,Khed,96,Low,17.7178,73.3993
+Maharashtra,Ratnagiri,Guhagar,199,Low,17.4847,73.193
+Maharashtra,Ratnagiri,Dapoli,71,Low,17.7617,73.1892
+Maharashtra,Ratnagiri,Mandangad,192,Low,17.8341,73.1947
+Maharashtra,Ratnagiri,Lanja,165,Low,16.75,73.55
+Maharashtra,Ratnagiri,Sangameshwar,111,Low,17.2045,73.5468
+Maharashtra,Ratnagiri,Rajapur,50,Low,16.6542,73.5216
+Maharashtra,Ratnagiri,Devgad,157,Low,16.2228,73.3776
+Maharashtra,Sindhudurg,Sawantwadi,78,Low,15.9054,73.8237
+Maharashtra,Sindhudurg,Kudal,141,Low,16.0337,73.6873
+Maharashtra,Sindhudurg,Malvan,69,Low,16.0604,73.4669
+Maharashtra,Sindhudurg,Kankavli,53,Low,16.2681,73.708
+Maharashtra,Sindhudurg,Vengurla,115,Low,15.8613,73.633
+Maharashtra,Sindhudurg,Dodamarg,93,Low,15.7633,74.0622
+Maharashtra,Sindhudurg,Vaibhavwadi,112,Low,16.1025,73.7844
+Maharashtra,Sindhudurg,Devgad Sindhudurg,50,Low,16.2228,73.3776
+Maharashtra,Sindhudurg,Oros,105,Low,16.1239,73.9248
+Maharashtra,Jalgaon,Jalgaon City,777,High,21.0077,75.5626
+Maharashtra,Jalgaon,Bhusawal,1012,High,21.0437,75.7901
+Maharashtra,Jalgaon,Yawal,309,Medium,21.1622,75.7148
+Maharashtra,Jalgaon,Amalner,952,High,21.0467,75.0579
+Maharashtra,Jalgaon,Pachora,516,Medium,20.6617,75.3506
+Maharashtra,Jalgaon,Chalisgaon,443,Medium,20.4614,74.9976
+Maharashtra,Jalgaon,Dharangaon,259,Medium,21.0167,75.2707
+Maharashtra,Jalgaon,Erandol,725,Medium,21.0419,75.3371
+Maharashtra,Jalgaon,Jamner,250,Medium,20.811,75.7947
+Maharashtra,Jalgaon,Chopda,305,Medium,21.2492,75.2944
+Maharashtra,Dhule,Dhule City,603,High,20.9013,74.7749
+Maharashtra,Dhule,Shirpur,936,High,21.3481,74.8784
+Maharashtra,Dhule,Sakri,1058,High,21.044,74.3274
+Maharashtra,Dhule,Shindkheda,738,High,21.3058,74.5566
+Maharashtra,Dhule,Sindkheda,570,High,21.3058,74.5566
+Maharashtra,Dhule,Nandurbar,673,High,21.3685,74.2374
+Maharashtra,Dhule,Navapur,298,Low,21.17,73.8047
+Maharashtra,Nandurbar,Nandurbar City,752,High,21.3685,74.2374
+Maharashtra,Nandurbar,Shahada,479,High,21.5455,74.4697
+Maharashtra,Nandurbar,Taloda,241,High,21.5638,74.2154
+Maharashtra,Nandurbar,Akkalkuwa,243,Low,21.6048,74.0095
+Maharashtra,Nandurbar,Akrani,94,Low,21.75,73.92
+Maharashtra,Nandurbar,Nawapur,695,High,21.17,73.8047
+Maharashtra,Ahmednagar,Ahmednagar City,350,Medium,19.0952,74.748
+Maharashtra,Ahmednagar,Kopargaon,696,High,19.8913,74.48
+Maharashtra,Ahmednagar,Sangamner,641,Medium,19.5712,74.2099
+Maharashtra,Ahmednagar,Shrirampur,236,Low,19.6218,74.6635
+Maharashtra,Ahmednagar,Nevasa,104,Low,19.5551,74.9841
+Maharashtra,Ahmednagar,Jamkhed,494,Medium,18.7177,75.3178
+Maharashtra,Ahmednagar,Karjat Ahmednagar,699,Medium,18.9265,74.6246
+Maharashtra,Ahmednagar,Pathardi,701,Medium,19.1678,75.1862
+Maharashtra,Ahmednagar,Shevgaon,465,Medium,19.32,75.1936
+Maharashtra,Ahmednagar,Rahata,134,Low,19.7167,74.4833
+Maharashtra,Beed,Beed City,806,High,18.988,75.7573
+Maharashtra,Beed,Ambajogai,525,High,18.7287,76.3804
+Maharashtra,Beed,Parli Vaijnath,794,High,18.8493,76.5361
+Maharashtra,Beed,Georai,1066,High,18.965,75.68
+Maharashtra,Beed,Majalgaon,1095,High,19.1542,76.2335
+Maharashtra,Beed,Kaij,1121,High,18.8441,75.9783
+Maharashtra,Beed,Dharur,628,High,18.8177,76.1041
+Maharashtra,Beed,Wadvani,793,High,18.6666,76.0618
+Maharashtra,Beed,Shirur Kasar,460,High,19.38,75.42
+Maharashtra,Latur,Latur City,663,High,18.4088,76.5604
+Maharashtra,Latur,Udgir,457,High,18.3936,77.118
+Maharashtra,Latur,Nilanga,356,High,17.9937,76.7644
+Maharashtra,Latur,Ausa,479,High,18.2541,76.5116
+Maharashtra,Latur,Chakur,799,High,17.9074,76.6014
+Maharashtra,Latur,Deoni,551,High,17.9557,76.954
+Maharashtra,Latur,Shirur Anantpal,739,High,17.88,76.86
+Maharashtra,Latur,Renapur,392,High,18.0987,76.5797
+Maharashtra,Latur,Jalkot,957,High,17.9117,77.202
+Maharashtra,Osmanabad,Osmanabad City,535,High,18.182,76.041
+Maharashtra,Osmanabad,Tuljapur,661,High,18.0079,76.0757
+Maharashtra,Osmanabad,Umarga,277,High,17.8258,76.6261
+Maharashtra,Osmanabad,Omerga,766,High,17.9812,76.404
+Maharashtra,Osmanabad,Lohara,243,High,18.09,76.23
+Maharashtra,Osmanabad,Kalamb,721,High,18.0548,76.0571
+Maharashtra,Osmanabad,Washi,889,High,18.3535,75.9543
+Maharashtra,Osmanabad,Paranda,466,High,18.275,75.898
+Maharashtra,Yavatmal,Yavatmal City,629,High,20.3888,78.1204
+Maharashtra,Yavatmal,Wani,929,High,20.0573,78.951
+Maharashtra,Yavatmal,Pusad,888,High,19.8937,77.5916
+Maharashtra,Yavatmal,Umarkhed,322,High,19.5996,77.6847
+Maharashtra,Yavatmal,Darwha,988,High,20.3031,77.7749
+Maharashtra,Yavatmal,Digras,663,High,20.1065,77.7191
+Maharashtra,Yavatmal,Ralegaon,1059,High,20.23,78.01
+Maharashtra,Yavatmal,Arni,750,High,20.575,77.0524
+Maharashtra,Yavatmal,Ghatanji,1041,High,20.1343,78.32
+Maharashtra,Yavatmal,Maregaon,626,High,20.31,78.31
+Maharashtra,Wardha,Wardha City,266,Medium,20.7453,78.6022
+Maharashtra,Wardha,Hinganghat,818,High,20.5541,78.8499
+Maharashtra,Wardha,Arvi,137,Low,20.9931,78.8995
+Maharashtra,Wardha,Seloo,190,Low,20.8417,78.5226
+Maharashtra,Wardha,Deoli,114,Low,20.6586,78.4683
+Maharashtra,Wardha,Samudrapur,141,Medium,20.6823,78.827
+Maharashtra,Wardha,Pulgaon,125,Low,20.7262,78.323
+Maharashtra,Wardha,Ashti,303,Medium,20.53,78.35
+Maharashtra,Wardha,Karanja,406,Medium,20.482,77.5145
+Maharashtra,Chandrapur,Chandrapur City,423,High,19.9615,79.2961
+Maharashtra,Chandrapur,Ballarpur,855,High,19.8368,79.3477
+Maharashtra,Chandrapur,Warora,744,High,20.2284,79.0024
+Maharashtra,Chandrapur,Chimur,926,High,20.4695,79.3251
+Maharashtra,Chandrapur,Bhadravati,514,High,20.0019,79.1565
+Maharashtra,Chandrapur,Gondpipri,870,High,20.34,79.48
+Maharashtra,Chandrapur,Mul,906,High,20.0686,79.6773
+Maharashtra,Chandrapur,Nagbhid,685,High,20.5738,79.8935
+Maharashtra,Chandrapur,Rajura,1136,High,19.7846,79.3742
+Maharashtra,Chandrapur,Sindewahi,858,High,20.3078,79.6466
