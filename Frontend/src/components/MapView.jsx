@@ -361,7 +361,7 @@ const MapView = () => {
 
   useEffect(() => {
     const load = () =>
-      axios.get("http://localhost:5000/api/hotspots")
+      axios.get("https://womensafety-tm4r.onrender.com/api/hotspots")
         .then(r => setHotspots(r.data)).catch(console.error);
     load();
     const t = setInterval(load, 10000);
@@ -374,7 +374,7 @@ const MapView = () => {
     setLoading(true); setStatus("Finding route…");
     setRoute([]); setSafeRoute([]); setIsUnsafe(false);
     try {
-      const { data } = await axios.post("http://localhost:5000/api/route",
+      const { data } = await axios.post("https://womensafety-tm4r.onrender.com/api/route",
         { start: userPos, end: dest });
       const direct = data.route.coordinates.map(c => [c[1],c[0]]);
       if (!checkSafe(direct, hotspots)) {
@@ -383,7 +383,7 @@ const MapView = () => {
       }
       setIsUnsafe(true); setRoute(direct);
       setStatus("⚠️ Unsafe zone detected — finding safe detour…");
-      const { data: sd } = await axios.post("http://localhost:5000/api/safe-route",
+      const { data: sd } = await axios.post("https://womensafety-tm4r.onrender.com/api/safe-route",
         { start: userPos, end: dest, hotspots });
       const safe = sd.route.coordinates.map(c => [c[1],c[0]]);
       setSafeRoute(safe);
@@ -402,7 +402,7 @@ const MapView = () => {
     setLoading(true); setStatus(`📍 Shortest route to ${stn.name}…`);
     setRoute([]); setSafeRoute([]); setIsUnsafe(false);
     try {
-      const { data } = await axios.post("http://localhost:5000/api/route",
+      const { data } = await axios.post("https://womensafety-tm4r.onrender.com/api/route",
         { start: userPos, end: [stn.lat, stn.lng] });
       const coords = data.route.coordinates.map(c => [c[1],c[0]]);
       setRoute(coords);
@@ -423,7 +423,7 @@ const MapView = () => {
     if (!userPos) return alert("User location not available");
     setPoliceLoading(true); setShowPanel(true); setPoliceList([]);
     try {
-      const { data } = await axios.post("http://localhost:5000/api/nearest_police_list",
+      const { data } = await axios.post("https://womensafety-tm4r.onrender.com/api/nearest_police_list",
         { lat: userPos[0], lng: userPos[1] });
       setPoliceList(data.stations || []);
     } catch (e) {
@@ -513,7 +513,7 @@ const MapView = () => {
         {/* Emergency Call Button */}
         <button className="sv-btn emergency" onClick={() => {
           if (!userPos) return alert("User location not available");
-          axios.post("http://localhost:5000/api/send-emergency",
+          axios.post("https://womensafety-tm4r.onrender.com/api/send-emergency",
             { lat: userPos[0], lng: userPos[1] }).catch(console.error);
           alert("📞 Calling Police: 100  |  Women Safety: 1091");
           window.open("tel:100"); window.open("tel:1091");

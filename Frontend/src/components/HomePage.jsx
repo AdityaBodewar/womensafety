@@ -194,7 +194,7 @@ const HomePage = ({ onSearch }) => {
     setQuery(value);
     if (value.length < 3) { setSuggestions([]); return; }
     try {
-      const res = await axios.get(`http://localhost:5000/api/search-location?q=${value}`);
+      const res = await axios.get(`https://womensafety-tm4r.onrender.com/api/search-location?q=${value}`);
       setSuggestions(res.data);
     } catch (err) { console.error(err); }
   };
