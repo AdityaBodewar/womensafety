@@ -11,7 +11,7 @@ CORS(app)
 # LOAD DATA
 # =========================
 try:
-    df = pd.read_csv("application/maharashtra_area_risk_summary_with_coords.csv")
+    df = pd.read_csv("maharashtra_area_risk_summary_with_coords.csv")
     df = df.rename(columns={"latitude": "lat", "longitude": "lng", "risk_level": "risk"})
     df['lat'] = df['lat'].astype(float)
     df['lng'] = df['lng'].astype(float)
