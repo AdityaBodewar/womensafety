@@ -7,9 +7,7 @@ import math
 app = Flask(__name__)
 CORS(app)
 
-# =========================
-# LOAD DATA
-# =========================
+
 try:
     df = pd.read_csv("maharashtra_area_risk_summary_with_coords.csv")
     df = df.rename(columns={"latitude": "lat", "longitude": "lng", "risk_level": "risk"})
@@ -19,10 +17,6 @@ except Exception as e:
     print("Error loading CSV:", e)
     df = pd.DataFrame()
 
-
-# =========================
-# HELPERS
-# =========================
 def haversine(lat1, lng1, lat2, lng2):
     R = 6371000
     to_rad = lambda x: x * math.pi / 180
@@ -76,9 +70,7 @@ def _build_safe_waypoints(start, end, hotspots):
 OSRM_URL = "http://router.project-osrm.org/route/v1/driving/"
 
 
-# =========================
-# API: GET HOTSPOTS
-# =========================
+
 @app.route("/api/hotspots", methods=["GET"])
 def get_hotspots():
     try:
@@ -89,9 +81,7 @@ def get_hotspots():
         return jsonify({"error": str(e)}), 500
 
 
-# =========================
-# API: DIRECT ROUTE (OSRM)
-# =========================
+
 @app.route("/api/route", methods=["POST"])
 def get_route():
     try:
@@ -113,9 +103,7 @@ def get_route():
         return jsonify({"error": str(e)}), 500
 
 
-# =========================
-# API: SAFE ROUTE
-# =========================
+
 @app.route("/api/safe-route", methods=["POST"])
 def get_safe_route():
     try:
@@ -143,37 +131,56 @@ def get_safe_route():
         return jsonify({"error": str(e)}), 500
 
 
-# =========================
-# API: SEARCH LOCATION
-# =========================
+
+
+
+
+
+
 @app.route("/api/search-location", methods=["GET"])
 def search_location():
     try:
         query = request.args.get("q")
         if not query:
-            return jsonify({"error": "Query is required"}), 400
+            return jsonify([])  
+
+        
         response = requests.get(
             "https://nominatim.openstreetmap.org/search",
-            params={"q": query, "format": "json", "limit": 5},
+            params={
+                "q": query,
+                "format": "json",
+                "addressdetails": 1,  
+                "limit": 5
+            },
             headers={"User-Agent": "women-safety-app"},
             timeout=10
         )
+
         if response.status_code != 200:
-            return jsonify({"error": "Geocoding service error"}), 500
-        results = [
-            {"name": p.get("display_name"),
-             "lat":  float(p.get("lat")),
-             "lng":  float(p.get("lon"))}
-            for p in response.json()
-        ]
+            return jsonify([]) 
+
+        results = []
+        for place in response.json():
+            addr = place.get("address", {})
+           
+            if addr.get("state") == "Maharashtra":
+                results.append({
+                    "name": place.get("display_name"),
+                    "lat": float(place.get("lat")),
+                    "lng": float(place.get("lon"))
+                })
+
         return jsonify(results)
+
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify([]) 
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
-# =========================
-# API: NEAREST POLICE — single (legacy)
-# =========================
+
 @app.route("/api/nearest_police_real", methods=["POST"])
 def nearest_police_real():
     data     = request.json
@@ -208,9 +215,7 @@ def nearest_police_real():
         return jsonify({"error": str(e)}), 500
 
 
-# =========================
-# ★ NEW: NEAREST POLICE LIST (top 5)
-# =========================
+
 @app.route("/api/nearest_police_list", methods=["POST"])
 def nearest_police_list():
     """
@@ -255,9 +260,7 @@ def nearest_police_list():
         return jsonify({"error": str(e)}), 500
 
 
-# =========================
-# API: SEND EMERGENCY
-# =========================
+
 @app.route("/api/send-emergency", methods=["POST"])
 def send_emergency():
     data = request.json
@@ -265,9 +268,7 @@ def send_emergency():
     return jsonify({"status": "ok"})
 
 
-# =========================
-# HEALTH CHECK
-# =========================
+
 @app.route("/")
 def home():
     return jsonify({"message": "Women Safety API running 🚀"})
